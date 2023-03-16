@@ -51,5 +51,7 @@ public class Tests
         stock.Add("Hello World", "Horror", 1974);
         RewindStore store = new RewindStore(stock);
         Assert.That(store.CheckStock("Hello World", "Horror", 1974), Is.EqualTo(1));
-    }
+    } 
+
+    
 }
